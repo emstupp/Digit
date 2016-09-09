@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DNumber()
+comment0.text=\r\n\ Constructor\ for\ DNumber,\ initializes\ string\ of\ eight\ digits\ (0).\r\n
+comment1.params=decimalVal
+comment1.target=DNumber(int)
+comment1.text=\ \r\n\ Converts\ decimalVal\ to\ its\ binary\ equivalent\ in\ the\ form\ of\ an\ ArrayList\r\n\ by\ adding\ 1's\ to\ the\ list\ in\ the\ appropriate\ places;\ fills\ out\ the\ rest\r\n\ of\ the\ list\ with\ 0's\ (if\ positive)\ or\ 1's\ (if\ negative)\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Converts\ each\ DNumber\ to\ a\ string\ representing\ its\ 8\ Digits\ (bits)\r\n\ \r\n@return\ \ \ \ \ the\ binary\ equivalent\ of\ the\ decimal\ value\ entered\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ in\ the\ DNumber\ constructor\r\n
+comment3.params=
+comment3.target=int\ getDecimalValue()
+comment3.text=\r\n\ Converts\ a\ positive\ DNumber\ to\ a\ decimal\ value\r\n\ \r\n\ @return\ the\ positive\ decimal\ equivalent\ of\ a\ DNumber\ ArrayList\r\n
+comment4.params=
+comment4.target=int\ getNegValue()
+comment4.text=\ Gets\ the\ decimal\ value\ of\ a\ negative\ DNumber\r\n\ \r\n\ @return\ the\ negative\ number\ representing\ the\ 2C\ value\r\n
+comment5.params=b
+comment5.target=void\ add(DNumber)
+comment5.text=\ Adds\ the\ inputted\ DNumber\ to\ the\ one\ for\ which\ the\ method\ was\r\n\ called\ using\ binary\ arithmetic\r\n\ \r\n\ @param\ a\ separate\ DNumber\r\n
+comment6.params=value
+comment6.target=boolean\ equals(DNumber)
+comment6.text=\ Tests\ to\ see\ if\ the\ inputted\ DNumber\ is\ equivalent\ to\ the\ one\ for\r\n\ which\ the\ method\ was\ called\r\n\ \r\n\ @param\ A\ DNumber\ separate\ from\ the\ one\ on\ which\ the\ method\ was\ called\r\n\ @return\ true\ or\ false,\ depending\ on\ whether\ or\ not\ the\ two\ DNumbers\r\n\ \ \ \ \ \ \ \ \ are\ equal\r\n
+comment7.params=other
+comment7.target=int\ compareTo(DNumber)
+comment7.text=\ Compares\ the\ decimal\ values\ of\ two\ different\ DNumbers\ returns\ 0\ if\ they\ are\ equal,\ -1\ if\ the\ parameter\r\n\ (other)\ is\ larger,\ and\ 1\ if\ the\ parameter\ (other)\ is\ smaller\r\n\ \r\n\ @param\ A\ DNumber\ separate\ from\ the\ one\ on\ which\ the\ method\ was\ called\r\n\ @return\ 0\ if\ they\ are\ equal,\ -1\ if\ the\ parameter\ (other)\ is\ larger,\ and\ \r\n\ \ \ \ \ \ \ \ \ 1\ if\ the\ parameter\ (other)\ is\ smaller\r\n
+numComments=8

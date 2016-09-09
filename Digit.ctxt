@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=val
+comment0.target=Digit(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Digit;\ takes\ an\ initial\ value\ of\ either\r\n\ 1\ or\ 0,\ prints\ an\ error\ otherwise\r\n
+comment1.params=
+comment1.target=int\ getValue()
+comment1.text=\r\nReturns\ the\ value\ of\ the\ bit\r\n\ \r\n@return\ \ the\ value\ of\ the\ bit\r\n
+comment2.params=value
+comment2.target=void\ setValue(int)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=b
+comment4.target=Digit\ halfAdd(Digit)
+comment4.text=\ Executes\ binary\ arithmetic\ between\ two\ bits\ (Digits);\ if\ the\ value\ is\ 2,\r\n\ returns\ a\ 1\ representing\ the\ carry\ out\r\n\ \r\n\ @param\ A\ single\ binary\ bit\ represented\ by\ a\ digit\r\n\ @return\ The\ excess\ carry-out\ value\ from\ binary\ arithmetic\r\n
+comment5.params=b\ carryIn
+comment5.target=Digit\ fullAdd(Digit,\ Digit)
+comment5.text=\ Executes\ binary\ arithmetic\ between\ three\ bits\ (Digits);\ if\ the\ value\ is\ 2,\r\n\ returns\ a\ 1\ representing\ the\ carry\ out\ and\ sets\ bit\ to\ 0;\ \r\n\ \r\n\ If\ the\ value\ is\ 3,\ sets\ bit\ to\ 1\ and\ returns\ a\ 1\ representing\ the\r\n\ carry\ out\r\n\ \r\n\ @param\ Two\ bits\ represented\ as\ Digits\r\n\ @return\ The\ excess\ carry-out\ value\ from\ binary\ arithmetic\r\n
+numComments=6
